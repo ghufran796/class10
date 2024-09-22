@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 10</title>
+    <style>
+input[Type=text]
+{
+    border: 2px solid rgb(64, 126, 241) ;
+}
+input[Type=password]
+{
+    border: 2px solid rgb(251, 44, 44);
+}    
+ul > li{
+          color: aquamarine;
+          font-size: 20px;
+        }
+
+h1 + p
+    {
+        color: rgb(255, 50, 241);
+        font-size: 20px;
+    }
+a:hover
+    {
+      color: rgb(229, 253, 50);
+    }
+li:nth-child(2)
+    {
+        color: rgb(253, 1, 1);
+        font-style: italic;
+    }
+div:not(.class1)
+    {
+        border:2px dotted red
+    }
+    .class3::before
+    {
+        content: "Example------" ;
+    }
+    .class4::after
+    {
+        content:"------Example----" ;
+    }
+.CLASS9::first-letter
+    {
+      color: aqua;
+      font-size: x-large;
+    }
+
+    </style>
+</head>
+<body>
+    <p style="font-size: x-large;">A placeholder is text inside an input field that offers a hint or<br>
+       example of the expected input. It disappears when the user begins typing.<br>
+       An input selector is a UI element (e.g., dropdown, checkbox, radio button)<br>
+       that allows users to choose or specify a value from multiple predefined<br>
+       options.<br>
+       An example is down below.<br><br>
+    </p>
+    <input type="text" placeholder="Enter name" ><br><br>
+    <input type="password" placeholder="password" ><br><br><br><br>
+    <p style="font-size: x-large;">A child selector in CSS targets and styles elements that are direct children<br>
+       of a specified parent element. It is defined using the > symbol between<br>
+       the parent and child selectors (e.g., parent > child). for example <br></p>
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+    </ul>
+    <P style="font-size: x-large;" >A sibling selector in CSS targets elements that share the same parent and are<br>
+       adjacent or general siblings. The adjacent sibling selector (+) targets the<br>
+       next immediate sibling, while the general sibling selector (~) targets all <br>
+       subsequent siblings.<br></P>
+
+    <h1 style="font-size: 40px "> 123 </h1>
+    <p>This is ABC</p>
+    <p style="font-size: 20px;"  >This is ABC</p><br><br>
+    <p style="font-size: x-large;">
+        A pseudo-class in CSS is used to define a special state of an element, allowing<br>
+        for styles based on user interaction or element status (e.g., :hover, :focus, :active).<br>
+        Thepseudo-class applies styles when a user hovers over an element with a pointing device,<br>
+        like changing the color or appearance of a button when the mouse is over it.<br>
+    </p>
+    <a href="#">youtube.com </a>
+    <p style="font-size: x-large;" >The () pseudo-class in CSS selects elements based on their position within a<br>
+       parent, using a formula like :nth-child(2) to target the second child. It can <br>
+       use specific numbers or patterns (e.g., even, odd) to style multiple elements.<br>
+    </p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <ii>Three</ii>
+    </ul>
+    <P style="font-size: x-large;" >() selector in CSS excludes elements that match a specific condition or selector.<br>
+       It applies styles to all elements except the ones specified inside the :not()<br>
+       function (e.g., :not(.class) targets elements without the specified class).<br></P>
+
+    <div class="class1" >DIV 1</div>
+    <div class="class2" >DIV 2</div>
+    <div class="class3" >DIV 3</div>
+
+    <p style="font-size: x-large;" >Pseudo-elements allow you to style specific parts of an element or insert content not <br>
+        in the DOM. The ::before pseudo-element adds content before an element's main content,<br>
+        often used for decorations or icons. It requires the content property to define what is<br>
+        inserted, such as text or symbols.<br></p><br>
+
+    <p class="class3" style="font-size: x-large;" >This is a example of before element</p>
+
+    <p style="font-size: x-large;" >The ::after pseudo-element inserts content after an element's main content,<br>
+        allowing for additional styling or decoration. Like ::before, it requires the content<br>
+        property to specify what is added, such as text or images.<br></p><br>
+    
+    <p class="class4" >This is a example of before element</p><br><br>
+
+    <p style="font-size: x-large;" >The ::first-letter pseudo-element in CSS styles the first letter of a block-level element,<br>
+       allowing for special formatting like font size, color, or style. It’s often used to<br>
+       create decorative effects, such as drop caps in paragraphs, enhancing the visual appeal<br>
+       of text.</p><br><br>
+    <p class="CLASS9" >This is a example</p>
+</body>
+</html>

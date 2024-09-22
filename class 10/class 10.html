@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class 10</title>
+    <style>
+     input[Type=text]
+     {
+        border: 2px solid rgb(64, 126, 241) ;
+     }
+    input[Type=password]
+    {
+        border: 10px solid rgb(251, 44, 44);
+    }    
+    ul > li{
+             color: aquamarine;
+             font-size: 20px;
+           }
+    h1 + p
+    {
+        color: greenyellow;
+    }
+    a:hover
+    {
+      color: blueviolet;
+    }
+    li:nth-child(2)
+    {
+        color: orangered;
+    }
+    div:not(.class1)
+    {
+        border:2px dotted red
+    }
+    .class3::before
+    {
+        content: "star" ;
+    }
+    .class4::after
+    {
+        content:"abc " ;
+    }
+    P::first-letter
+    {
+      color: aqua;
+    }
+    </style>
+
+</head>
+<body  >
+  <!--Advance selecter -->  
+
+  <!--Atribute selecter -->
+  <input type="text" placeholder="Enter name" ><br><br>
+  <input type="password" placeholder="password">
+  <!--Child selecter-->
+  <ul>
+    <li>Home</li>
+    <li>School</li>
+  </ul>
+  <!--Sibling selector-->
+  <h1 id="A">12</h1>
+ <p>This is ABC</p>
+ <p>This is ABC</p>
+ <!--pseudo class-->
+ <!--Hover-->
+ <a href="#">youtube.com </a>
+ <!--nth child-->
+<ul>
+    <li>Iteam 1</li>
+    <li>Iteam 2</li>
+    <ii>Iteam 3</ii>
+</ul>
+<!--Not selector -->
+<div class="class1" >DIV 1</div>
+<div class="class2" >DIV 2</div>
+<!--pseudo elements-->
+<!--before-->
+<p class="class3">before</p>
+<!--after -->
+<div class="class4" ></div>
+<!--First-->
+<p>ABDSBAJDAJDNAJKDAN</p>
+</body>
+</html>
